@@ -1,6 +1,6 @@
 print('| Welcome to Calculator App |')
-first_number = int(input("Enter first number : "))
-second_number = int(input("Enter second number : "))
+first_number = float(input("Enter first number : "))
+second_number = float(input("Enter second number : "))
 print('| -------------------------------- |')
 Add = first_number + second_number
 Subtract = first_number - second_number
