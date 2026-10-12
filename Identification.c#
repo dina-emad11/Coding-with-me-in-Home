@@ -12,7 +12,7 @@ class HelloWorld {
     {
     Console.WriteLine($"Division= {a/b}");
     }
-    else 
+    else
     {
         Console.WriteLine("Cannot division by zero!");
     }
