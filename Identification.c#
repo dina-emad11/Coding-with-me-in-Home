@@ -1,0 +1,20 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.Write("Enter number one:");
+    double a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Enter number two:");
+    double b = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"Sum= {a+b}");
+    Console.WriteLine($"Difference= {a-b}");
+    Console.WriteLine($"Product= {a*b}");
+    if (b != 0)
+    {
+    Console.WriteLine($"Division= {a/b}");
+    }
+    else 
+    {
+        Console.WriteLine("Cannot division by zero!");
+    }
+}
+}
